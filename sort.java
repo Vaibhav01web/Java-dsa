@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class sort {
 
+    // taking input in array
     public static void main(String args[]){
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
@@ -10,6 +11,7 @@ public class sort {
             youu[i]=sc.nextInt();
             
         }
+        // applying sort algorithm
         for (int i = 0; i < youu.length-1; i++) {
             for(int j = 0 ;j<youu.length-i-1;j++){
                 if(youu[j]>youu[j+1]){
